@@ -50,6 +50,7 @@
     color: #00000070;
   }
   .cartao{
+    box-shadow: 6px 1px 16px -5px rgba(0,0,0,0.75);
     border-radius: 10px;
     height: 9rem;
     width: 80%;

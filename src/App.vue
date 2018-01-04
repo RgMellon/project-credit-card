@@ -1,15 +1,18 @@
 <template>
   <div id="app">
   <area-cartao> </area-cartao>
+  <teclado> </teclado>
   </div>
 </template>
 
 <script>
 import AreaCartao from './components/cartao/AreaCartao';
+import Teclado from './components/teclado/Teclado';
 export default {
   name: 'app',
   components: {
     'area-cartao': AreaCartao,
+    'teclado': Teclado
   },
   data () {
     return {
